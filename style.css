@@ -80,3 +80,17 @@ body {
 .text-link:hover {
   color: #c69772;
 }
+
+.album-card {
+  background-color: #e6a81b;
+  color: #fff;
+  text-align: center;
+}
+
+.artist-name {
+  font-weight: 600;
+}
+
+.album-name {
+  font-size: 1.5rem;
+}
