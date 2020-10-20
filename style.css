@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* Set 1 REM = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lato';
+  padding: 7rem;
+}
+
+.header {
+  background-image: url(./img/andrew-header.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+
+.header-text-box {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translateY(-50%);
+}
+
+.heading-primary {
+  color: #fff;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 5rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.heading-primary-icons {
+  display: block;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.icon-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.icon-link:hover {
+  color: #dfc7b8;
+}
+
+.icon {
+  margin-right: 3px;
+}
+
+.icon:active {
+  transform: translateY(3px);
+}
