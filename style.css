@@ -14,36 +14,34 @@ body {
   padding: 7rem;
 }
 
-.header {
+.hero-img {
   background-image: url(./img/andrew-header.jpg);
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 60vh;
   position: relative;
 }
 
 .header-text-box {
-  position: absolute;
-  top: 50%;
-  left: 2%;
-  transform: translateY(-50%);
+  background-color: #583216;
+  padding: 2rem;
 }
 
 .heading-primary {
   color: #fff;
+  font-size: 5rem;
+  font-weight: 800;
 }
 
 .heading-primary-main {
-  display: block;
-  font-size: 5rem;
   letter-spacing: 4px;
   text-transform: uppercase;
 }
 
 .heading-primary-icons {
   display: block;
-  font-size: 4rem;
-  text-align: center;
+  float: right;
+
 }
 
 .icon-link {
@@ -52,7 +50,7 @@ body {
 }
 
 .icon-link:hover {
-  color: #dfc7b8;
+  color: #e6a81b;
 }
 
 .icon {
