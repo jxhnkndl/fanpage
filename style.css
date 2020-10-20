@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  background-color: rgba(223, 199, 184, 0.524);
   font-family: 'Lato';
   padding: 7rem;
 }
@@ -24,7 +25,6 @@ body {
 
 .header-text-box {
   background-color: #583216;
-  padding: 2rem;
 }
 
 .heading-primary {
@@ -59,4 +59,24 @@ body {
 
 .icon:active {
   transform: translateY(3px);
+}
+
+.section-title {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.paragraph-text {
+  font-size: 1.75rem;
+}
+
+.text-link {
+  color: #583216;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  color: #c69772;
 }
