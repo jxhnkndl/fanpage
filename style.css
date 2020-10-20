@@ -31,34 +31,12 @@ body {
   color: #fff;
   font-size: 5rem;
   font-weight: 800;
+  text-align: center;
 }
 
 .heading-primary-main {
   letter-spacing: 4px;
   text-transform: uppercase;
-}
-
-.heading-primary-icons {
-  display: block;
-  float: right;
-
-}
-
-.icon-link {
-  color: #fff;
-  text-decoration: none;
-}
-
-.icon-link:hover {
-  color: #e6a81b;
-}
-
-.icon {
-  margin-right: 3px;
-}
-
-.icon:active {
-  transform: translateY(3px);
 }
 
 .section-title {
@@ -78,7 +56,7 @@ body {
 }
 
 .text-link:hover {
-  color: #c69772;
+  color: #e6a81b;
 }
 
 .album-card {
@@ -93,4 +71,19 @@ body {
 
 .album-name {
   font-size: 1.5rem;
+}
+
+.artist-links {
+  list-style: none;
+  text-align: center;
+}
+
+.social-link {
+  display: inline-block;
+  font-size: 2rem;
+  margin-right: 3rem;
+}
+
+.social-link:active {
+  transform: translateY(3px);
 }
