@@ -18,7 +18,7 @@ body {
   background-image: url(./img/andrew-header.jpg);
   background-position: center;
   background-size: cover;
-  height: 60vh;
+  height: 75vh;
 }
 
 .header-text-box {
@@ -27,15 +27,15 @@ body {
 
 .heading-primary {
   color: #fff;
-  font-size: 5rem;
-  font-weight: 800;
+  font-size: 4.5rem;
+  font-weight: 600;
   letter-spacing: .8rem;
   text-align: center;
   text-transform: uppercase;
 }
 
 .section-title {
-  font-size: 3.5rem;
+  font-size: 3.25rem;
   font-weight: 600;
   text-align: center;
 }
@@ -84,4 +84,18 @@ body {
 
 .icon {
   margin-right: .5rem;
+}
+
+@media (max-width: 768px) {
+  .heading-primary {
+    font-size: 3.5rem;
+  }
+
+  .section-title {
+    font-size: 2.25rem;
+  }
+
+  .paragraph-text {
+    font-size: 1.4rem;
+  }
 }
